@@ -1,1 +1,5 @@
-## Run `autoreconf --install` to start
+## Usage :
+#
+$ autoreconf --install
+$ ./configure
+$ make

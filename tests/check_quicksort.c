@@ -1,7 +1,5 @@
-#include <check.h>
-
-START_TEST ("should sort")
+int
+main (void)
 {
-
+	  return 0;
 }
-END_TEST
