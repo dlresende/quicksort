@@ -1,5 +1,14 @@
-## Usage :
-#
-$ autoreconf --install
-$ ./configure
-$ make
+# Implementation of quicksort algorithm in C
+
+## Dependencies
+You need the following programs installed on your system:
+  -- Autoconf 2.59
+  -- Automake 1.9.6
+  -- Libtool 1.5.22
+  -- Check 0.9.9
+
+## Run
+`$ autoreconf --install`
+`$ ./configure`
+`$ make`
+`$ make check`
