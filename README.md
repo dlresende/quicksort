@@ -1,4 +1,4 @@
-# Implementation of quicksort algorithm in C
+# Quicksort algorithm in C
 
 ## Dependencies
 - Autoconf 2.59
