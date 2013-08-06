@@ -9,5 +9,8 @@
 ## Compile
 - `$ autoreconf --install`
 - `$ ./configure`
-- `$ make`
 - `$ make check`
+
+## Run
+- `cd src`
+- `./quicksort 3 4 2 1 0987 0987 34 78 2876 6565 -765656`

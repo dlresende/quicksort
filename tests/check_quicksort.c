@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <check.h>
+#include <string.h>
 #include "../src/quicksort.h"
 	
 START_TEST(should_not_sort_empty_input)
@@ -20,7 +21,7 @@ START_TEST(should_sort_numbers)
 {
 	int unsorted_numbers[] = {3, 2, 1};
 	int sorted_numbers[] = {1, 2, 3};
-	ck_assert(memcmp(quicksort(unsorted_numbers, 3), sorted_numbers, sizeof(3)) == 0);
+	ck_assert(!memcmp(quicksort(unsorted_numbers, 3), sorted_numbers, 3 * sizeof(int)));
 }
 END_TEST
 
