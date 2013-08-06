@@ -2,7 +2,7 @@
 #include <check.h>
 #include <string.h>
 #include "../src/quicksort.h"
-	
+
 START_TEST(should_not_sort_empty_input)
 {
 	int empty[0] = {};
@@ -25,8 +25,7 @@ START_TEST(should_sort_numbers)
 }
 END_TEST
 
-Suite*
-quicksort_suite(void)
+Suite* quicksort_suite(void)
 {
 	Suite *suite = suite_create("Quicksort");
 	TCase *tc = tcase_create("Sort");
@@ -37,8 +36,7 @@ quicksort_suite(void)
 	return suite;
 }
 
-int
-main (void)
+int main (void)
 {
 	int number_failed;
 	Suite *s = quicksort_suite();
@@ -46,6 +44,6 @@ main (void)
 	srunner_run_all(sr, CK_NORMAL);
 	number_failed = srunner_ntests_failed(sr);
 	srunner_free(sr);	
-       
+
 	return (number_failed == 0) ? EXIT_SUCCESS : EXIT_FAILURE;
 }
