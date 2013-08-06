@@ -8,9 +8,9 @@
 - Check 0.9.9
 
 ## Compile
-- `$ autoreconf --install`
-- `$ ./configure`
-- `$ make check`
+- `autoreconf --install`
+- `./configure`
+- `make check`
 
 ## Run
 - `cd src`
