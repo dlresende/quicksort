@@ -56,8 +56,8 @@ void arraycopy(int *origin, int *destination, int offset, int size)
 
 int main(int argc, char *argv[])
 {
-	int numbers[argc - 1];
 	int numbers_size = argc - 1;
+	int numbers[numbers_size];
 
 	for(int i = 0; i < numbers_size; i++)
 	{
