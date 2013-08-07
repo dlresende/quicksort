@@ -6,14 +6,14 @@
 START_TEST(should_not_sort_empty_input)
 {
 	int empty[0] = {};
-	ck_assert_ptr_eq(quicksort(empty, 0), empty);
+	ck_assert(quicksort(empty, 0) == empty);
 }
 END_TEST
 
 START_TEST(when_input_has_one_number_should_return_the_number)
 {
 	int one_number[0] = {1};
-	ck_assert_ptr_eq(quicksort(one_number, 1), one_number);
+	ck_assert(quicksort(one_number, 1) == one_number);
 }
 END_TEST
 
