@@ -1,5 +1,5 @@
 # Quicksort algorithm in C
-[Quicksort](http://en.wikipedia.org/wiki/Quicksort) is a sorting algorithm that, on average, makes O(n log n) comparisons to sort n items.
+[Quicksort](http://en.wikipedia.org/wiki/Quicksort) is a sorting algorithm that, on average, makes O(n log n) comparisons to sort n items. This implementation is not in-place.
 
 ## Dependencies
 - Autoconf 2.59
